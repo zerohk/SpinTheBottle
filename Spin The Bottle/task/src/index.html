@@ -6,16 +6,19 @@
 </head>
 <body>
 <h1>Spin The Bottle</h1>
+
+<form id="players-form">
+    <label for="player-name">Enter player name</label>
+    <input type="text" id="player-name" name="player-name" placeholder="Player name">
+<!--    <input type="button" value="Add player" id="add-player">-->
+    <button id="add-player" type="button">Add player</button>
+</form>
 <p id="players-text">Players</p>
 <ul id="players">
-    <li>Player1</li>
-    <li>Player2</li>
-    <li>Player3</li>
-    <li>Player4</li>
-    <li>Player5</li>
-    <li>Player6</li>
+
 </ul>
-<p id="status">Spin the bottle!</p>
+<p id="status">Add players to spin the bottle.</p>
 <button id="spin">Spin</button>
+<script src="./index.js"></script>
 </body>
 </html>

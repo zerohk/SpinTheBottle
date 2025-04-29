@@ -7,6 +7,12 @@ files:
   - name: test/test.js
     visible: false
     learner_created: false
+  - name: src/index.js
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/45653#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: 恭喜!
+  time: "Tue, 29 Apr 2025 07:59:33 UTC"
+record: 2
